@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+debug = require('debug')('dropzone')
+app = require('../app')
+app.set 'port', process.env.PORT or 3030
+server = app.listen(app.get('port'), ->
+	debug 'Express server listening on port ' + server.address().port
+)

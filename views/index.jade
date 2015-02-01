@@ -1,0 +1,6 @@
+extends layout
+
+block content
+	h1 Lifeplus DropZone
+	p Automatically upload your event photos to Lifeplus
+	form.dropzone(id="LifeplusDropzone", action="/file-upload", enctype="multipart/form-data")
