@@ -3,7 +3,7 @@ env = 'development'
 config = require('./config')[env]
 console.log 'Lifeplus DropZone configured for ' + env + ', listening on port ' + config.port
 
-debug = require('debug') 'wolop'
+debug = require('debug') 'dropzone'
 express = require 'express'
 path = require 'path'
 favicon = require 'serve-favicon'
@@ -59,7 +59,7 @@ app.use (req, res, next) ->
     err = new Error('Not Found')
     err.status = 404
     next err
-mongoose.connect 'mongodb://localhost:27017/dropzone'
+#mongoose.connect 'mongodb://localhost:27017/dropzone'
 models = require './coffee_modules/models.coffee'
 
 # error handlers
