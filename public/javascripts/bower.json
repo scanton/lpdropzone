@@ -1,0 +1,29 @@
+{
+  "name": "lpdropzone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/scanton/lpdropzone",
+  "authors": [
+    "Satori Canton <satoricanton@gmail.com>"
+  ],
+  "description": "photo sharing application",
+  "main": "client.coffee",
+  "keywords": [
+    "photo",
+    "upload",
+    "dropbox",
+    "dropzone"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "fingerprint": "~0.5.4"
+  }
+}

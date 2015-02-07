@@ -1,6 +1,11 @@
 extends layout
 
 block content
-	h1 Lifeplus DropZone
-	p Automatically upload your event photos to Lifeplus
+	.heading
+		h1 Lifeplus DropZone
+		p Automatically upload your event photos to Lifeplus
 	form.dropzone(id="LifeplusDropzone", action="/file-upload", enctype="multipart/form-data")
+	.input-group.detail-inputs
+		input.full-name(type="text", placeholder="Your Name")
+		input.group-title(type="text", placeholder="Photo Group Title")
+		button.save-button Changes Saved

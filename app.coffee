@@ -1,7 +1,6 @@
 env = 'development'
 
 config = require('./config')[env]
-console.log 'Lifeplus DropZone configured for ' + env + ', listening on port ' + config.port
 
 debug = require('debug') 'dropzone'
 express = require 'express'
@@ -22,6 +21,8 @@ multer  = require 'multer'
 
 app = express()
 http = require('http').Server app
+io = require('socket.io') http
+socketManager = require('./coffee_modules/socket-manager.coffee') io
 
 app.set 'env', env
 app.set 'port', config.port
@@ -81,4 +82,11 @@ app.use (err, req, res, next) ->
         message: err.message
         error: {}
 
-module.exports = app
+
+server = http.listen app.get('port'), ->
+    console.log 'Lifeplus DropZone configured for ' + env.toUpperCase() + ', initialized on port ' + server.address().port
+
+module.exports = 
+    app: app
+    server: server
+    io: io

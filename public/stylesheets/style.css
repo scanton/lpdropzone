@@ -3,23 +3,54 @@ body {
   padding: 3em;
   font-family: Neotech, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #73808c;
+  background: url("http://lifeplus.com/images/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: 90% 0;
+}
+body .heading {
+  text-shadow: 2px 2px 0px #fff;
+}
+.input-group input {
+  border-radius: 5px;
+  border: 1px solid #6cc24a;
+  width: 100%;
+  font-size: 18pt;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+.input-group button {
+  font-size: 18pt;
+  border-radius: 10px;
+  padding: 0.25em 0.5em;
+  margin-top: 0.5em;
+  background: #6cc24a;
+  color: #fff;
+  border: none;
+  float: right;
+}
+.input-group button.changes-saved {
+  background: #c4ccd3;
 }
 .dropzone,
 .dropzone * {
   box-sizing: border-box;
 }
 .dropzone {
-  background: url("http://lifeplus.com/images/logo.jpg");
-  background-repeat: no-repeat;
-  background-position: -45px -8px;
   min-height: 150px;
   border: 3px dotted #6cc24a;
   color: #6cc24a;
   padding: 20px 20px;
   border-radius: 20px;
+  background: #fff;
 }
-.dropzone h1 {
-  text-shadow: -2px 1px 2px #fff;
+.dropzone .caption {
+  border-radius: 5px;
+  border: 1px solid #6cc24a;
+  padding: 0.25em;
+  max-width: 120px;
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 12pt;
 }
 .dropzone.dz-clickable {
   cursor: pointer;
