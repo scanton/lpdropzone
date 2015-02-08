@@ -13,12 +13,12 @@ body .heading {
 .input-group input {
   border-radius: 5px;
   border: 1px solid #6cc24a;
-  width: 100%;
+  width: 97%;
   font-size: 18pt;
   padding: 0.5em;
   margin-top: 0.5em;
 }
-.input-group button {
+.input-group .save-changes-button {
   font-size: 18pt;
   border-radius: 10px;
   padding: 0.25em 0.5em;
@@ -28,8 +28,9 @@ body .heading {
   border: none;
   float: right;
 }
-.input-group button.changes-saved {
-  background: #c4ccd3;
+.input-group .changes-saved-notice {
+  margin-top: 0.5em;
+  float: right;
 }
 .dropzone,
 .dropzone * {
