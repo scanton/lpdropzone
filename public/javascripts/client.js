@@ -1,5 +1,5 @@
 (function() {
-  var channels, clearRequireSave, delay, delayInterval, id, id3d, prevCaption, prevName, prevTitle, requireSave, saveCaption, saveName, saveRequired, saveTitle, socket;
+  var channels, clearRequireSave, delay, delayInterval, id, id3d, prevCaption, prevName, prevTitle, requireSave, saveCaption, saveName, saveRequired, socket;
 
   socket = io();
 
@@ -72,19 +72,6 @@
     return prevName = name;
   };
 
-  saveTitle = function(title) {
-    if (title !== prevTitle) {
-      requireSave();
-      delay('title', function() {
-        socket.emit('save:title', {
-          title: title
-        });
-        return clearRequireSave();
-      });
-    }
-    return prevTitle = title;
-  };
-
   $(document).delegate('.caption', 'keyup', function() {
     var $container, $this, fileName;
     $this = $(this);
@@ -93,8 +80,6 @@
     return saveCaption(fileName, $this.val());
   }).delegate('.full-name', 'keyup', function() {
     return saveName($(this).val());
-  }).delegate('.group-title', 'keyup', function() {
-    return saveTitle($(this).val());
   }).ready(function() {
     return Dropzone.options.LifeplusDropzone = {
       maxFileSize: 10,

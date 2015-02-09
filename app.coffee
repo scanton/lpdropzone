@@ -15,8 +15,6 @@ stylus = require 'stylus'
 nib = require 'nib'
 crypto = require 'crypto'
 mongoose = require 'mongoose'
-Hashids = require 'hashids'
-ids = new Hashids config.hashidSalt
 multer  = require 'multer'
 
 app = express()

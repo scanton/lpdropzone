@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-debug = require('debug')('dropzone')
+debug = require('debug') 'dropzone'
 sunshine = require '../app'
 
 app = sunshine.app
