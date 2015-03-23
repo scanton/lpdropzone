@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Zone de chargement",
+        "leadin": "Partagez les meilleurs moments des événements Lifeplus avec d'autres utilisateurs en chargeant les photos ou vidéos de ces événements dans la zone de chargement.",
+        "show_help": "Afficher l'aide",
+        "hide_help": "Masquer l'aide",
+        "share_your_photos": "Partagez vos photos ou vidéos",
+        "click_tap_or_drag": "Effectuez un glisser-déposer en cliquant ou en appuyant pour déplacer vos fichiers ici",
+        "your_name": "Your name (Votre nom)",
+        "cancel": "Annuler",
+        "help_text": "<h2>Démarrage</h2><p>Pour charger une image ou une vidéo, il vous suffit de cliquer (ou d'appuyer) sur le bouton ci-dessous. Sélectionnez un fichier lorsque le système vous y invite. Le système lance ensuite le processus de chargement. Une barre de progression s'affiche sous l'image ou la vidéo en cours de chargement vers la zone de chargement. Lorsque le chargement est terminé, une coche s'affiche.</p><h2>Glisser-déposer des images</h2><p>Si vous utilisez un ordinateur de bureau ou tout autre périphérique vous permettant de faire un glisser-déposer pour déplacer les fichiers afin de les charger dans la fenêtre d'un navigateur Web, vous pouvez sélectionner plusieurs fichiers à la fois et les déplacer dans la fenêtre ci-dessous.</p><h2>Sous-titres</h2><p>Si vous souhaitez ajouter un sous-titre, cliquez ou appuyez sur la zone correspondante du fichier. Le système enregistre automatiquement le texte au fur et à mesure que vous le saisissez.</p><h2>Saisie du nom</h2><p>Si vous le souhaitez, vous pouvez saisir votre nom dans la zone de texte « Your Name » (Votre nom). Comme pour l'ajout de sous-titres, le système enregistre automatiquement le texte que vous saisissez. Ajouter votre nom vous permet d'être contacté en cas de problème avec le chargement des fichiers.</p>"
+    }
+]

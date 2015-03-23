@@ -2,11 +2,13 @@ doctype html
 html
 	head
 		title= title
+		link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/animations.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
 	body
 		block content
 		script(src='/javascripts/bower_components/jquery/dist/jquery.js')
+		script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
 		script(src='/socket.io/socket.io.js')
 		script(src='/javascripts/bower_components/fingerprint/fingerprint.js')
 		script(src='/javascripts/dropzone.js')

@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Drop Zone",
+        "leadin": "Teilen Sie den Spaß eines Lifeplus-Events, indem Sie Ihre Fotos oder Videos in die DropZone hochladen.",
+        "show_help": "Hilfe anzeigen",
+        "hide_help": "Hilfe ausblenden",
+        "share_your_photos": "Teilen Sie Ihre Fotos oder Videos",
+        "click_tap_or_drag": "Dateien durch Anklicken, Berühren oder Drag & Drop hier einfügen",
+        "your_name": "Mein Name",
+        "cancel": "Abbrechen",
+        "help_text": "<h2>Erste Schritte</h2><p>Zum Hochladen eines Bildes oder Videos einfach das Kästchen unten anklicken (oder berühren). Das System fordert Sie zur Auswahl einer Datei auf – das Hochladen beginnt, sobald Sie eine Datei ausgewählt haben. Während des Hochladens in die DropZone zeigt das System einen Fortschrittsbalken unter dem Bild oder Video an. War das Hochladen erfolgreich, wird ein Häkchen angezeigt.</p><h2>Bilder per Drag & Drop verschieben</h2><p>Wenn Sie einen Computer oder ein anderes Gerät benutzen, mit dem das Ziehen und Ablegen von Dateien in einem Webbrowser-Fenster möglich ist, können Sie mehrere Dateien gleichzeitig auswählen und per Drag & Drop in das Feld unten einfügen.</p><h2>Beschriftung</h2><p>Das Beschriftungsfeld der Datei anklicken oder berühren, um eine optionale Beschriftung hinzuzufügen. Das System speichert während des Schreibens automatisch den Text, den Sie eingeben.</p><h2>Ihren Namen eingeben</h2><p>Sie haben die Möglichkeit, Ihren Namen in das Feld „Mein Name“ einzutragen. Wie bei der Beschriftung speichert das System auch hier den Text, während Sie ihn eintippen. Die Eingabe Ihres Namens hilft uns, Sie bei Problemen mit dem Hochladen zu kontaktieren.</p>"
+    }
+]

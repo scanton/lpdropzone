@@ -22,6 +22,14 @@ module.exports = (io) ->
 			console.log info
 			console.log '****** ******* ******'
 		socket.on 'save:name', (data) ->
-			console.log data
+			data.ip = info.ip
+			data.sig = info.sig
+			data.domain = info.domain
+			data.socketId = socket.id
+			db.insertName data
 		socket.on 'save:caption', (data) ->
-			console.log data
+			data.ip = info.ip
+			data.sig = info.sig
+			data.domain = info.domain
+			data.socketId = socket.id
+			db.insertComment data

@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Drop Zone",
+        "leadin": "Share the fun of a Lifeplus event with others by uploading your event photos or videos to the Drop Zone.",
+        "show_help": "Show Help",
+        "hide_help": "Hide Help",
+        "share_your_photos": "Share Your Photos or Videos",
+        "click_tap_or_drag": "Click, tap or drag and drop your files here",
+        "your_name": "Your name",
+        "cancel": "Cancel",
+        "help_text": "<h2>Getting started</h2><p>To upload an image or video, simply click (or tap) the box below. The system prompts you to select a file—select one and the system starts the upload process. The system displays a progress bar below the image or video as it is uploading to the DropZone, and a checkmark when it has finished uploading.</p><h2>Dragging and dropping images</h2><p>If you are using a desktop computer or other device that allows you to drag and drop files into a web browser window, you can select multiple files at once and drag them into the box below.</p><h2>Captioning</h2><p>Click or tap on the file's caption box to add an optional caption. The system automatically saves the text you enter as you type it.</p><h2>Entering your name</h2><p>You can optionally enter your name in the <em>Your Name</em> box. As with the caption boxes, the system automatically saves the text as you type it. Entering your name helps us to contact you if there are problems with the upload.</p>"
+    }
+]

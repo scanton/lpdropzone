@@ -36,7 +36,7 @@ app.use cookieParser()
 app.use multer(
     dest: './uploads/'
     rename: (fieldname, filename) ->
-        return filename.replace(/\W+/g, '-').toLowerCase() + Date.now()
+        return Date.now() + '_' + filename.replace(/\W+/g, '-').toLowerCase()
 )
 app.use stylus.middleware(
     src: path.join __dirname, 'views'
@@ -58,7 +58,8 @@ app.use (req, res, next) ->
     err = new Error('Not Found')
     err.status = 404
     next err
-#mongoose.connect 'mongodb://localhost:27017/dropzone'
+
+mongoose.connect 'mongodb://localhost:27017/dropzone'
 models = require './coffee_modules/models.coffee'
 
 # error handlers

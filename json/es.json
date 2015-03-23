@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Drop Zone",
+        "leadin": "Comparta la diversión de un evento de Lifeplus con otras personas cargando sus fotos o vídeos del evento en DropZone",
+        "show_help": "Mostrar ayuda",
+        "hide_help": "Ocultar ayuda",
+        "share_your_photos": "Comparta sus fotos o vídeos",
+        "click_tap_or_drag": "Haga clic, toque o arrastre y suelte aquí sus archivos",
+        "your_name": "Su nombre",
+        "cancel": "Cancelar",
+        "help_text": "<h2>Introducción</h2><p>Para cargar una imagen o un vídeo, solo tiene que hacer clic (o tocar) en el cuadro siguiente. El sistema le pedirá que seleccione un archivo para iniciar el proceso de carga. El sistema muestra una barra de progreso debajo de la imagen o del vídeo mientras se carga a DropZone y, cuando finaliza el proceso de carga, muestra una marca de verificación.</p><h2>Cómo arrastrar y soltar imágenes</h2><p>Si utiliza un equipo de sobremesa u otro dispositivo que le permite arrastrar y soltar archivos en la ventana de un navegador web, puede seleccionar varios archivos a la vez y arrastrarlos al cuadro que se muestra a continuación.</p><h2>Títulos</h2><p>Haga clic o toque en el cuadro de título para añadir un título opcional. El sistema guarda automáticamente el texto a medida que lo va escribiendo.</p><h2>Cómo introducir su nombre</h2><p>Tiene la opción de introducir su nombre en el cuadro <em>Su nombre</em>. Al igual que sucede con los cuadros de título, el sistema guarda automáticamente el texto a medida que lo va escribiendo. Introducir su nombre nos ayuda a ponernos en contacto con usted si se produce algún problema con la carga.</p>"
+    }
+]

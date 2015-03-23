@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Drop Zone",
+        "leadin": "Dela dina foton eller videor från ett Lifeplus-evenemang genom att överföra dem till Drop Zone",
+        "show_help": "Visa hjälpavsnittet",
+        "hide_help": "Dölj hjälpavsnittet",
+        "share_your_photos": "Dela dina foton eller videor",
+        "click_tap_or_drag": "Klicka, tryck eller dra-och-släpp dina filer här",
+        "your_name": "Ditt namn",
+        "cancel": "Avbryt",
+        "help_text": "<h2>Komma igång</h2><p>Om du vill överföra en bild eller video klickar du bara (eller trycker) på rutan nedan. Då ombes du att välja en fil och när du har gjort ditt val påbörjas överföringsprocessen. I systemet visas en förloppsindikator under bilden eller videon när den överförs till Drop Zone, och när överföringen är klar visas en bock.</p><h2>Dra och släppa bilder</h2><p>Om du använder en stationär dator eller en annan enhet där du kan dra och släppa filer i ett webbläsarfönster, går det att välja flera filer samtidigt och dra dem till rutan nedan.</p><h2>Bildtext</h2><p>Klicka eller tryck på filens bildtextruta om du vill lägga till en valfri bildtext Texten du skriver där sparas automatiskt medan du skriver.</p><h2>Ange ditt namn</h2><p>Om du vill kan du ange ditt namn i rutan <em>Ditt namn</em>. Precis som för bildtextrutorna, sparas texten när du skriver in den. Om du anger ditt namn blir det lättare för oss att kontakta dig om det skulle uppstå problem vid överföringen.</p>"
+    }
+]

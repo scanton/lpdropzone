@@ -26,4 +26,10 @@ upsert = (model, query, data, callback) ->
 				callback rows if callback
 		)
 
-module.exports = {} #export your database API here
+module.exports = 
+	insertComment: (data) ->
+		comment = new models.Caption data
+		comment.save()
+	insertName: (data) ->
+		name = new models.Name data
+		name.save()

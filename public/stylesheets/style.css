@@ -1,19 +1,27 @@
 body {
-  font-family: Helvetica, Arial, sans;
   padding: 3em;
   font-family: Neotech, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #73808c;
-  background: url("http://lifeplus.com/images/logo.jpg");
-  background-repeat: no-repeat;
-  background-position: 90% 0;
 }
 body .heading {
   text-shadow: 2px 2px 0px #fff;
 }
+a {
+  color: #6cc24a;
+}
+h3 {
+  margin: 0;
+}
+.dropzone {
+  margin: 10px;
+}
+.input-group {
+  width: 100%;
+}
 .input-group input {
   border-radius: 5px;
   border: 1px solid #6cc24a;
-  width: 97%;
+  width: 100%;
   font-size: 18pt;
   padding: 0.5em;
   margin-top: 0.5em;
@@ -302,4 +310,7 @@ body .heading {
   display: block;
   width: 54px;
   height: 54px;
+}
+.options {
+  padding: 0.5em 0;
 }

@@ -1,0 +1,13 @@
+[
+    {
+        "drop_zone": "Drop Zone",
+        "leadin": "Condividete le emozioni di un evento Lifeplus con altri utenti caricando le vostre foto e i video dell'evento su DropZone",
+        "show_help": "Mostra Aiuto",
+        "hide_help": "Nascondi Aiuto",
+        "share_your_photos": "Condividere foto e video",
+        "click_tap_or_drag": "Fare clic, toccare, o trascinare e rilasciare i file qui",
+        "your_name": "Nome",
+        "cancel": "Annulla",
+        "help_text": "<h2>Guida rapida</h2><p>Per caricare un'immagine o un video, basta fare clic (o toccare) sulla casella di seguito. Il sistema vi chiederà di selezionare un file; una volta selezionato il file, il sistema avvierà il processo di caricamento. Il sistema visualizza una barra con lo stato di avanzamento del caricamento dell'immagine o del video su DropZone; al termine dell'operazione, verrà visualizzato un segno di spunta.</p><h2>Trascinare e rilasciare immagini</h2><p>Se state usando un computer o un dispositivo che consente di trascinare e rilasciare file nella finestra di un browser Web, potete selezionare più file contemporaneamente e trascinarli nella casella di seguito.</p><h2>Didascalie</h2><p>Toccate o fate clic sulla casella della didascalia del file se desiderate aggiungere una didascalia. Il sistema salva automaticamente il testo immesso man mano che digitate. </p><h2>Indicare il vostro nome</h2><p>Se lo desiderate, potete indicare il vostro nome nell'apposita casella. Come per la casella dedicata alle didascalie, il sistema salva automaticamente il testo man mano che digitate. Indicando il vostro nome, ci è possibile contattarvi in caso di problemi con il caricamento.</p>"
+    }
+]

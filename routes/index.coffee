@@ -1,3 +1,4 @@
+fs = require 'fs'
 express = require 'express'
 router = express.Router()
 
@@ -6,7 +7,6 @@ router.get '/', (req, res) ->
 		title: 'Lifeplus DropZone'
 
 router.post '/file-upload', (req, res) ->
-	console.log req.headers
 	res.render 'file-upload',
 		title: 'File Upload'
 		id: req.headers['x-user-id']
